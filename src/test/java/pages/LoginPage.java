@@ -9,8 +9,8 @@ public class LoginPage {
 
     public void dologin(){
         WebDriver driver = new ChromeDriver();
-        driver.findElement(By.name("username")).sendKeys("bita_roxana@yahoo.com");
-        driver.findElement(By.name("password")).sendKeys("InvataC#");
+        driver.findElement(By.name("username")).sendKeys("test@yahoo.com");
+        driver.findElement(By.name("password")).sendKeys("Parola#");
         ((ChromeDriver) driver).findElementByClassName("button--large button--block button").submit();
     }
 }
